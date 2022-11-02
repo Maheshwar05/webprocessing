@@ -1,0 +1,90 @@
+body{
+    background-image: url(images/pexels-photo-747964.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+header,footer{
+    position: absolute;
+    width: 100%;
+    background-color: blue;
+    color: white;
+}
+header{
+    height: 10vh;
+}
+footer{
+    height: 15vh;
+    bottom: 0;
+}
+header h2{
+    position: absolute;
+    margin-top: 10px;
+}
+.logo{
+    height: 50%;
+    width: 100%;
+    margin: 0px auto;
+    margin-left: 300x;
+}
+.logo ul {
+    padding: 0px;
+}
+header .logo ul li {
+    float: left;
+    background-color: blue;
+    color: white;
+    height: 60px;
+    width: 200px;
+    list-style: none;
+    text-align: center;
+    line-height: 60px;
+    font-size: x-large;
+    opacity: 7;
+    cursor: pointer;
+}
+.logo ul li ul{
+    position: absolute;
+    display: none;
+}
+.logo ul li:hover >ul{
+    position: relative;
+    display: block;
+}
+.logo ul li:hover{
+    background-color: yellow;
+    opacity: 7;
+}
+.logo ul li ul li{
+    position: relative;
+}
+.logo ul li ul li ul{
+    position: absolute;
+    left: 250px;
+    bottom: 60px;
+}
+footer h2{
+    position: absolute;
+    left: 45%;
+    top: 15px;
+    }
+footer p{
+    position: absolute;
+    left: 45%;
+    bottom: 20px;
+}
+
+button{
+    display: inline-block;
+    background-color: white;
+    cursor: pointer;
+    color: black;
+    text-decoration: none;
+    margin-right: 0px;
+    font-size: 18px;
+    margin-top: 20px;
+    text-align: center;
+}
